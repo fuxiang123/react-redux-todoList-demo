@@ -12,3 +12,4 @@ export default store;
 // 2.在组件中直接使用state.调用action方法发出一个action
 // 3.发出action后，进入reducer，再通过action.type进入对应的case
 // 4.reducer 返回一个对象,替换原有的state
+// 5.react-redux监听到state变化，改变传入的props，驱动组件重新渲染
